@@ -1,6 +1,6 @@
 {
   "name": "image-loaded",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {},
   "description": "Call a callback when an image has loaded - adapted from desandro/imagesloaded",
   "main": "index.js",
@@ -22,7 +22,8 @@
       "firefox/14..latest",
       "safari/5.1...latest",
       "opera/11.0..latest",
-      "iphone/6", "ipad/6"
+      "iphone/6",
+      "ipad/6"
     ]
   },
   "keywords": [
