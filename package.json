@@ -4,12 +4,25 @@
   "dependencies": {},
   "description": "Call a callback when an image has loaded - adapted from desandro/imagesloaded",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "~0.3.3"
+  },
   "scripts": {
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/hughsk/image-loaded.git"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": {
+      "ie": [ 6, 7, 8, 9 ],
+      "firefox": [ 10, 11, 12, 13 ],
+      "chrome": [ 14, 15, 16 ],
+      "safari": [ 5.1 ],
+      "opera": [ 10.6, 11, 11.6 ]
+    }
   },
   "keywords": [
     "images",
