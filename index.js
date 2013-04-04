@@ -1,3 +1,8 @@
+/*
+ * Modified version of http://github.com/desandro/imagesloaded v2.1.1
+ * MIT License. by Paul Irish et al.
+ */
+
 var BLANK = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=='
 
 function loaded(image, callback) {
