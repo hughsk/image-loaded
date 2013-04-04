@@ -1,5 +1,7 @@
 # image-loaded #
 
+[![browser support](https://ci.testling.com/hughsk/image-loaded.png)](https://ci.testling.com/hughsk/image-loaded)
+
 Call a callback when an image has loaded - adapted from
 [desandro/imagesloaded](https://github.com/desandro/imagesloaded),
 minus the jQuery.
