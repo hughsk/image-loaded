@@ -24,7 +24,9 @@ test('Image loaded afterwards', function(t) {
     t.ok(!already)
   })
 
-  image.src = src
+  setTimeout(function() {
+    image.src = src
+  }, 500)
 })
 
 test('Pass an error with the wrong element', function(t) {
