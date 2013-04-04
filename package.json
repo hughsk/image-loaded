@@ -1,0 +1,22 @@
+{
+  "name": "image-loaded",
+  "version": "0.0.1",
+  "dependencies": {},
+  "description": "Call a callback when an image has loaded - adapted from desandro/imagesloaded",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/image-loaded.git"
+  },
+  "keywords": [
+    "images",
+    "loaded",
+    "browserify",
+    "detect"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT"
+}
