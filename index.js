@@ -11,11 +11,14 @@ function loaded(image, callback) {
 
   if (!image.nodeName) return callback(new Error('First argument must be an image element'))
   if (image.nodeName.toLowerCase() !== 'img') return callback(new Error('Element supplied is not an image'))
-  if (image.complete && image.naturalWidth !== undefined) return callback(null, true)
+  if (image.src  && image.complete && image.naturalWidth !== undefined) return callback(null, true)
 
-  image.addEventListener('load', function() {
+  function loaded() {
+    image.removeEventListener('load', loaded, false)
     callback(null, false)
-  })
+  }
+
+  image.addEventListener('load', loaded, false)
 
   if (image.readyState || image.complete) {
     src = image.src
