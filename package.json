@@ -16,13 +16,14 @@
   },
   "testling": {
     "files": "test.js",
-    "browsers": {
-      "ie": [ 7, 8, 9, 10 ],
-      "firefox": [ 10, 11, 12, 13 ],
-      "chrome": [ 15, 16 ],
-      "safari": [ 5.1 ],
-      "opera": [ 11 ]
-    }
+    "browsers": [
+      "ie/7..latest",
+      "chrome/20..latest",
+      "firefox/14..latest",
+      "safari/5.1...latest",
+      "opera/11.0..latest",
+      "iphone/6", "ipad/6"
+    ]
   },
   "keywords": [
     "images",

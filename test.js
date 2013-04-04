@@ -6,13 +6,13 @@ test('Image loaded already', function(t) {
   var image = new Image
   t.plan(2)
 
-  image.src = src
   image.onload = function() {
     loaded(image, function(err, already) {
       t.error(err)
       t.ok(already)
     })
   }
+  image.src = src
 })
 
 test('Image loaded afterwards', function(t) {
